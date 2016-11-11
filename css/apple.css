@@ -1,0 +1,766 @@
+* {
+  box-sizing: border-box;
+}
+/*小屏*/
+.container {
+  width: 820px;
+  /*-@minWidth*/
+  margin: auto;
+}
+.container > .row {
+  width: 100%;
+}
+.container > .row:before,
+.container > .row:after {
+  content: "";
+  display: block;
+}
+.container > .row:after {
+  clear: both;
+}
+.container-fluid {
+  width: 100%;
+  margin: auto;
+}
+.container-fluid > .row {
+  width: 100%;
+}
+.container-fluid > .row:before,
+.container-fluid > .row:after {
+  content: "";
+  display: block;
+}
+.container-fluid > .row:after {
+  clear: both;
+}
+.container > .row > .col-s-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.container > .row > .col-s-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.container > .row > .col-s-3 {
+  width: 25%;
+  float: left;
+}
+.container-fluid > .row > .col-s-3 {
+  width: 25%;
+  float: left;
+}
+.container > .row > .col-s-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.container > .row > .col-s-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.container > .row > .col-s-6 {
+  width: 50%;
+  float: left;
+}
+.container-fluid > .row > .col-s-6 {
+  width: 50%;
+  float: left;
+}
+.container > .row > .col-s-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.container > .row > .col-s-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.container > .row > .col-s-9 {
+  width: 75%;
+  float: left;
+}
+.container-fluid > .row > .col-s-9 {
+  width: 75%;
+  float: left;
+}
+.container > .row > .col-s-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.container > .row > .col-s-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.container > .row > .col-s-12 {
+  width: 100%;
+  float: left;
+}
+.container-fluid > .row > .col-s-12 {
+  width: 100%;
+  float: left;
+}
+.col-s-hide {
+  display: none;
+}
+/*中屏*/
+@media screen and (min-width: 820px) {
+  .container {
+    width: 820px;
+  }
+  .col-s-hide {
+    display: block;
+  }
+  .col-m-hide {
+    display: none;
+  }
+  .col-l-hide {
+    display: block;
+  }
+  .container > .row > .col-m-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-3 {
+    width: 25%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-3 {
+    width: 25%;
+    float: left;
+  }
+  .container > .row > .col-m-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-6 {
+    width: 50%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-6 {
+    width: 50%;
+    float: left;
+  }
+  .container > .row > .col-m-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-9 {
+    width: 75%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-9 {
+    width: 75%;
+    float: left;
+  }
+  .container > .row > .col-m-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-12 {
+    width: 100%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/*大屏*/
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 1200px;
+  }
+  .col-s-hide {
+    display: block;
+  }
+  .col-m-hide {
+    display: block;
+  }
+  .col-l-hide {
+    display: none;
+  }
+  .container > .row > .col-l-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-3 {
+    width: 25%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-3 {
+    width: 25%;
+    float: left;
+  }
+  .container > .row > .col-l-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-6 {
+    width: 50%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-6 {
+    width: 50%;
+    float: left;
+  }
+  .container > .row > .col-l-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-9 {
+    width: 75%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-9 {
+    width: 75%;
+    float: left;
+  }
+  .container > .row > .col-l-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-12 {
+    width: 100%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-12 {
+    width: 100%;
+    float: left;
+  }
+}
+body,
+ul,
+li,
+img,
+p,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #a8a8aa;
+}
+.header {
+  background: #444;
+  width: 100%;
+  height: 40px;
+}
+.guangao {
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 12px;
+  line-height: 40px;
+}
+.nav-bcg {
+  width: 100%;
+  margin: 0 auto;
+  background: #000000;
+  height: 48px;
+}
+#NAV-m {
+  display: none;
+}
+.nav {
+  width: 100%;
+  height: 48px;
+  margin: 0 auto;
+}
+.nav > li {
+  height: 100%;
+  float: left;
+  color: #fff;
+  font-size: 18px;
+  text-align: right;
+  line-height: 48px;
+}
+.nav li:nth-child(8) {
+  background: url(../img/appleimage/image_large_search.svg) no-repeat 70% center;
+}
+.nav li:last-child {
+  background: url(../img/appleimage/image_large_home.svg) no-repeat right center;
+}
+.nav > li a:hover {
+  color: #444;
+}
+#NAV-m li {
+  width: 11.11%;
+}
+.nav-s {
+  width: 100%;
+  height: 100%;
+}
+.nav-s > div {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+.nav-s > div:nth-child(1) {
+  padding-left: 15px;
+  text-align: left;
+  line-height: 48px;
+  position: relative;
+}
+.nav-s > div:nth-child(3) {
+  padding-right: 15px;
+  text-align: right;
+}
+.menu > div {
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  z-index: 3;
+  background: #000;
+  display: none;
+}
+.menu div a {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E3E3E3;
+}
+.menu div a:last-child {
+  border-bottom: 2px solid #E3E3E3;
+}
+.bgc-banner {
+  width: 100%;
+  height: 580px;
+  position: relative;
+  overflow: hidden;
+}
+.banner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.banner .list {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.banner .list p {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+.banner .one {
+  background: #fff url(../img/appleimage/macbookpro_small.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.banner .two {
+  width: 100%;
+  height: 100%;
+  background: #000 url(../img/appleimage/iphone_large.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom right;
+}
+.banner .three {
+  background: #000 url(../img/appleimage/event_small.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  left: 100%;
+}
+.btn {
+  position: absolute;
+  width: 156px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 20px;
+  z-index: 2;
+}
+.btn > div {
+  width: 50px;
+  height: 2px;
+  margin-right: 2px;
+  background: #a8a8aa;
+  float: left;
+  border-radius: 2px;
+}
+.btns-list .progress {
+  height: 100%;
+  background: red;
+  width: 0%;
+}
+.left-btn {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.5s ;
+}
+.left-btn:hover {
+  opacity: 1;
+}
+.right-btn:hover {
+  opacity: 1;
+}
+.right-btn {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.5s ;
+}
+.left-btn .left-left {
+  position: absolute;
+  left: 0px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  background: #a8a8aa;
+}
+.right-btn .right-right {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  background: #a8a8aa;
+}
+.product li {
+  height: 200px;
+  border: 1px solid #fff;
+}
+.product li:nth-child(1) {
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/appleimage/nike_watch_small.jpg);
+  background-size: cover;
+}
+.product li:nth-child(2) {
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/appleimage/airpods_small.jpg);
+  background-size: cover;
+}
+.product li:nth-child(3) {
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/appleimage/iphone_upgrade_small.jpg);
+  background-size: cover;
+}
+.product li:nth-child(4) {
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/appleimage/accessibility_small.jpg);
+  background-size: cover;
+}
+.bgc-footer {
+  color: #999;
+  font-size: 12px;
+  background: #f2f2f2;
+  padding-left: 10px;
+}
+.bgc-footer:before,
+.bgc-footer:after {
+  content: "";
+  display: block;
+}
+.bgc-footer:after {
+  clear: both;
+}
+.footer a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.firstline {
+  width: 100%;
+  font-size: 12px;
+  padding: 15px 0 ;
+  color: #999;
+  border-bottom: 1px solid #E3E3E3;
+}
+.serve > div {
+  width: 100%;
+  color: #999;
+  cursor: pointer;
+}
+.footer li {
+  color: #999;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.footer h5 {
+  color: #333;
+  font-size: 13px;
+  margin-top: 15px;
+  border-bottom: 1px solid #E3E3E3;
+}
+.footer h5:after {
+  content: "+";
+  float: right;
+  margin-right: 15px;
+}
+.lastline {
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  margin: 10px 0;
+  color: #999;
+}
+.lastline a {
+  color: blue;
+}
+.map img {
+  margin-right: 10px;
+}
+.oo {
+  width: 100%;
+  color: #999;
+  padding-top: 5px;
+}
+.oo a {
+  padding-right: 5px;
+  font-size: 13px;
+  color: #666;
+}
+.footer > p:last-child {
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 820px) {
+  #NAV-m {
+    display: block;
+  }
+  .nav-s {
+    display: none;
+  }
+  .serve {
+    margin: 10px 0;
+  }
+  .serve:before,
+  .serve:after {
+    content: "";
+    display: block;
+  }
+  .serve:after {
+    clear: both;
+  }
+  .serve > div {
+    width: 20%;
+    float: left;
+  }
+  .banner .one {
+    background: #fff url(../img/appleimage/macbookpro_medium.jpg) no-repeat;
+    width: auto;
+    height: auto;
+    left: 0;
+    right: 0;
+    background-size: auto 100%;
+    background-position: top center;
+  }
+  .banner .two {
+    background: #000 url(../img/appleimage/iphone_large.jpg) no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    left: 100%;
+  }
+  .banner .three {
+    background: #000 url(../img/appleimage/event_medium.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    top: 0%;
+    background-position: 50% 38%;
+  }
+  .footer h5 {
+    border: none;
+  }
+  .footer h5:after {
+    content: "";
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .guangao,
+  .footer {
+    width: 976px;
+  }
+  #NAV-m {
+    width: 976px;
+  }
+  .banner .one {
+    width: auto;
+    height: auto;
+    left: 0;
+    right: 0;
+    background: #fff url(../img/appleimage/macbookpro_medium.jpg) no-repeat;
+    background-size: auto 100%;
+    background-position: top center;
+  }
+  .banner .three {
+    background: #000 url(../img/appleimage/event_large.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 38%;
+  }
+}

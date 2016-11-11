@@ -1,0 +1,22 @@
+.r-s {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -o-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -ms-border-radius: 50% 50% 50% 50%;
+  -webkit-box-shadow: 10px 10px 10px red;
+  -o-box-shadow: 10px 10px 10px red;
+  -moz-box-shadow: 10px 10px 10px red;
+  -ms-box-shadow: 10px 10px 10px red;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-image-source: url(../img/border.jpg);
+  border-image-slice: 33.333%;
+  border-image-width: 30px;
+  border-image-repeat: round;
+}
